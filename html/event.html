@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event Catalog</title>
+  <link rel="stylesheet" href="/css/event.css"/>
+  
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/Images/Aptech_Logo.png" alt="CampusConnect Logo">
+        <span>CampusConnect</span>
+      </div>
+
+      <!-- Hamburger -->
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+
+      <!-- Nav Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="/html/home.html">Home</a></li>
+        <li><a href="/html/about.html">About</a></li>
+        <li><a href="/html/event.html" class="active">Events</a></li>
+        <li><a href="/html/gallery.html">Gallery</a></li>
+        <li><a href="/html/feedback.html">Feedback</a></li>
+        <li><a href="/html/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="body">
+    <h1>📅 Event Catalog</h1>
+    <div class="tabs">
+      <button id="upcomingTab" class="active">Upcoming Events</button>
+      <button id="pastTab">Past Events</button>
+    </div>
+
+    <div class="controls">
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="Academic">Academic Events</option>
+        <option value="Cultural">Cultural Events</option>
+        <option value="Sports">Sports Events</option>
+        <option value="Departmental">Departmental Events</option>
+      </select>
+
+      <select id="sortOptions">
+        <option value="dateAsc">Date (Upcoming First)</option>
+        <option value="dateDesc">Date (Recent First)</option>
+        <option value="name">Event Name (A–Z)</option>
+        <option value="category">Category</option>
+      </select>
+    </div>
+
+    <div id="eventList" class="event-list"></div>
+
+    <section>
+      <div>
+        <ol>
+          <li>
+            Aptech Career Quest: This is the most significant and
+            well-documented recurring event. Its purpose is a career fair and
+            educational seminar to provide guidance and scholarship
+            opportunities.
+            <ul>
+              <li>17th Edition: (Held between September 2-10, 2025). This event was held in multiple locations across
+                Lagos, including Maryland, Ajao, Isheri, Ajah, Lekki, Ikeja, Festac Town, Victoria Island, and Surulere.
+                It also marked Aptech's 25th anniversary in Nigeria and was a collaboration with Middlesex University,
+                London.
+              </li>
+              <li>15th Edition: (Held in September 2023). This event took place in over 15 cities, including Lagos. It
+                had both on-ground and virtual sessions, offering career guidance and scholarships.
+              </li>
+              <li>2020 Edition: (Held in 2020). This was a virtual event due to the COVID-19 pandemic. Its venture was
+                awarding over ₦60 million in scholarships.
+              </li>
+            </ul>
+          </li>
+          <li>
+            Career Connect: A specific career fair held in collaboration with
+            the University of Bolton.
+            <ul>
+              <li>First-ever Edition: (Held from July 18-22, 2022). The event was held in Lagos and Abuja. It focused on
+                introducing students to the University of Bolton and detailing opportunities for credit transfers and
+                international degrees.
+              </li>
+            </ul>
+          </li>
+          <li>
+            TechWiz: A global IT competition for Aptech students to showcase
+            their skills.
+            <ul>
+              <li>4th Edition: (Held in 2023). Aptech students from Nigeria participated in this global event, which
+                involved developing various tech projects. The specific venue for participation would have been at the
+                local Aptech centers in Lagos and other cities.
+              </li>
+            </ul>
+          </li>
+          <li>Aptech's 25th Anniversary Celebration:
+            <ul>
+              <li>(Celebrated in conjunction with the 17th Career Quest, September 2025). This milestone was celebrated
+                across the various Career Quest venues, with a significant announcement that Aptech has trained over
+                100,000 students in Nigeria since its establishment in Lagos in the year 2000.
+              </li>
+            </ul>
+          </li>
+          <li>Key Takeaways:
+            <ul>
+              <li>Aptech's major events are primarily the annual Career Quest and its global competitions like TechWiz.
+              </li>
+              <li>The company's marketing and public relations focus on the impact and ventures of these events (e.g.,
+                scholarships, university partnerships) rather than on creating a publicly accessible historical calendar
+                of every single event.
+              </li>
+              <li>Lagos is a primary hub for Aptech's operations in Nigeria, and its various centers (e.g., Maryland,
+                Lekki, Ikeja, Festac Town) frequently serve as venues for these events.
+              </li>
+              <li>The specific dates and venues for events prior to 2022 are not easily found in detailed historical
+                records online. The information available typically refers to them in a general, aggregated sense.</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+  </div>
+  <footer class="site-footer">
+        <div class="footer-container">
+
+            <div class="footer-col">
+                <h3>CampusConnect</h3>
+                <p>
+                    Your gateway to college events, culture, and community.
+                    Stay connected, stay inspired.
+                </p>
+            </div>
+
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/html/home.html">Home</a></li>
+                    <li><a href="/html/about.html">About</a></li>
+                    <li><a href="/html/event.html">Events</a></li>
+                    <li><a href="/html/gallery.html">Gallery</a></li>
+                    <li><a href="/html/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-col">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#"><img src="/Images/Instagram_icon.png.webp" alt="Instagram"></a>
+                    <a href="#"><img src="/Images/twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="/Images/LinkedIn_logo_initials.png.webp" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 CampusConnect | All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+  <script src="/js/event.js"></script>
+</body>
+
+</html>

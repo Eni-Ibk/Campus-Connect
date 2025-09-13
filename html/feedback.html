@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback Page</title>
+  <link rel="stylesheet" href="/css/feedback.css" />
+</head>
+
+<body class="container">
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/Images/Aptech_Logo.png" alt="CampusConnect Logo">
+        <span>CampusConnect</span>
+      </div>
+
+      <!-- Hamburger -->
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+
+      <!-- Nav Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="/html/home.html" class="active">Home</a></li>
+        <li><a href="/html/about.html">About</a></li>
+        <li><a href="/html/event.html">Events</a></li>
+        <li><a href="/html/gallery.html">Gallery</a></li>
+        <li><a href="/html/feedback.html">Feedback</a></li>
+        <li><a href="/html/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="card">
+    <h2 class="title">Event Feedback Form</h2>
+    <form class="feedback-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your Name" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="person@gmail.com" />
+
+      <label for="userType">User Type:</label>
+      <select id="userType">
+        <option value="">Select...</option>
+        <option>Student</option>
+        <option>Faculty</option>
+        <option>Guest</option>
+      </select>
+
+      <label for="event">Event Attended:</label>
+      <select id="event">
+        <option value="">Select Event...</option>
+        <option>Workshop - August</option>
+        <option>Career Quest - September</option>
+        <option>Sports Day - September</option>
+      </select>
+
+      <label>Rating:</label>
+      <div class="rating">
+        <label><input type="radio" name="rating" /> 1</label>
+        <label><input type="radio" name="rating" /> 2</label>
+        <label><input type="radio" name="rating" /> 3</label>
+        <label><input type="radio" name="rating" /> 4</label>
+        <label><input type="radio" name="rating" /> 5</label>
+      </div>
+
+      <label for="comments">Comments:</label>
+      <textarea id="comments" placeholder="Write your feedback..."></textarea>
+
+      <button type="button" class="btn">Submit</button>
+    </form>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-container">
+
+      <div class="footer-col">
+        <h3>CampusConnect</h3>
+        <p>
+          Your gateway to college events, culture, and community.
+          Stay connected, stay inspired.
+        </p>
+      </div>
+
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/html/home.html">Home</a></li>
+          <li><a href="/html/about.html">About</a></li>
+          <li><a href="/html/event.html">Events</a></li>
+          <li><a href="/html/gallery.html">Gallery</a></li>
+          <li><a href="/html/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+
+      <div class="footer-col">
+        <h4>Connect With Us</h4>
+        <div class="social-links">
+          <a href="#"><img src="/Images/Instagram_icon.png.webp" alt="Instagram"></a>
+          <a href="#"><img src="/Images/twitter-icon.png" alt="Twitter"></a>
+          <a href="#"><img src="/Images/LinkedIn_logo_initials.png.webp" alt="LinkedIn"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 CampusConnect | All Rights Reserved</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

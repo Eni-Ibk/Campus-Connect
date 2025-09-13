@@ -1,0 +1,34 @@
+  [
+  {
+    "name": "Tech Symposium 2025",
+    "date": "2025-09-20",
+    "time": "10:00 AM – 4:00 PM",
+    "venue": "Main Auditorium",
+    "category": "Academic",
+    "description": "A showcase of the latest research and innovations from students and faculty."
+  },
+  {
+    "name": "Cultural Night",
+    "date": "2025-10-05",
+    "time": "6:00 PM – 9:00 PM",
+    "venue": "Open Air Theatre",
+    "category": "Cultural",
+    "description": "An evening filled with performances celebrating diverse traditions and cultures."
+  },
+  {
+    "name": "Football Tournament Finals",
+    "date": "2025-09-25",
+    "time": "3:00 PM – 6:00 PM",
+    "venue": "Sports Ground",
+    "category": "Sports",
+    "description": "Inter-department football competition finals."
+  },
+  {
+    "name": "Chemistry Workshop",
+    "date": "2025-09-15",
+    "time": "9:00 AM – 12:00 PM",
+    "venue": "Lab 302",
+    "category": "Departmental",
+    "description": "Hands-on workshop on modern lab techniques for chemistry students."
+  }
+]
